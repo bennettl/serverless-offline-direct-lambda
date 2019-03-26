@@ -23,7 +23,12 @@ custom:
     port: 4000
 ```
 
-To expose the path of 
+To have this work with webpack, we need to expose the location of handler files via custom config
+```
+serverless-offline:
+  prefix: loans
+  port: 3002
+  location: .webpack/service```
 
 ## Running & Calling
 

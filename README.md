@@ -28,7 +28,8 @@ To have this work with webpack, we need to expose the location of handler files 
 serverless-offline:
   prefix: loans
   port: 3002
-  location: .webpack/service```
+  location: .webpack/service
+```
 
 ## Running & Calling
 
